@@ -1,0 +1,17 @@
+require("./libs/spa.min.js");
+require("./libs/swiper-3.3.1.min.js");
+require("./views/index.js");
+/*view视图*/
+require("./views/home.js");
+require("./views/zone.js");
+require("./views/mine.js");
+/*home的子视图*/
+require("./views/xl/list.js");
+require("./views/xl/detail.js");
+require("./views/xl/cart.js");
+/*zone子视图*/
+require("./views/jrx-js/zone-1.js");
+/*子视图*/
+require("./views/views-zp/Login.js");
+require("./views/views-zp/register.js");
+require("./views/views-zp/shop.js");

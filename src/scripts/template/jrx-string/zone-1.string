@@ -1,0 +1,41 @@
+<div class="jrx-zone-1">
+    <header>
+        <i class="yo-ico" action-type="back">&#xe779</i>
+    </header>
+    <section>
+        <ul>
+            <li>
+                <i class="yo-ico">&#xe61d</i>
+                <p>餐饮空间</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe64e</i>
+                <p>办公空间</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe883</i>
+                <p>艺术空间</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe71f</i>
+                <p>酒店名宿</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe601</i>
+                <p>生活会所</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe626</i>
+                <p>公共空间</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe626</i>
+                <p>公共空间</p>
+            </li>
+            <li>
+                <i class="yo-ico">&#xe608</i>
+                <p>其他</p>
+            </li>
+        </ul>
+    </section>
+</div>

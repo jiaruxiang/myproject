@@ -1,0 +1,27 @@
+<div id="goods-list">
+	<header>
+		<i class="yo-ico" action-type="back">&#xe604</i>
+		<span ms-text="name">沙发</span>
+		<i></i>
+	</header>
+	<section spa-widget="scroll">
+		<ul class="goods">
+			<li ms-repeat-el="list" action-type="goDetail"  ms-attr-data-imgurl="el.thumb" ms-attr-data-title="el.title">
+				<img ms-src="el.thumb" alt="" />
+				<div class="info">
+					<span class="word" ms-text="el.title"></span>
+					<ul class="collect">
+						<li>
+							<i class="yo-ico">&#xe614</i>
+							<b ms-text="el.view_count"></b>
+						</li>
+						<li>
+							<i class="yo-ico">&#xe60d</i>
+							<b ms-text="el.favs_count"></b>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</section>
+</div>

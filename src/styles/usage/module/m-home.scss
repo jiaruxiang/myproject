@@ -1,0 +1,190 @@
+%goods{
+    @include flexbox();
+    @include flex-wrap(wrap);
+    padding: .06rem;
+    li{
+        width: 50%;
+        padding: .03rem;
+        img{
+            width: 100%;
+        }
+        .info{
+            width: 100;
+            height:.7rem ;
+            background: #fff;
+            padding: 0 .2rem;
+            .word{
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: #000;
+                line-height: .4rem;
+                font-size: .12rem;
+                @include border(0 0 1px 0,#9b9b9b);
+            }
+            ul{
+                @include flexbox();
+                @include justify-content(space-between);
+                li{
+                    line-height: .3rem;
+                    color: #9b9b9b;
+                    &:first-child{
+                        i{
+                            font-size: .18rem;
+                        }
+                    }
+                    &:last-child{
+                        @include flexbox();
+                        @include justify-content(flex-end);
+                    }
+                    b,i{
+                        font-style: normal;
+                        font-weight: normal;
+                        padding: 0 .02rem;
+                    }
+                    b{
+                        font-size: .12rem;
+                    }
+                }
+            }
+        }
+    }        
+}
+
+#home{
+    height: 100%;
+    background: url(/img/xl/bg_fragment_product.png) no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    header{
+        height:.44rem;
+        @include flexbox();
+        @include justify-content(space-between);
+        background: #000;
+        &>*{
+            width: .76rem;
+            line-height: .44rem;
+            color: #fff;
+            text-align: center;
+            font-size: .22rem;
+        }
+        span{
+            @include flex();
+            font-size: .20rem;
+        }
+    }
+    #home-scroll{
+        width: 100%!important;
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        // pull-to-refresh
+        .head {
+            text-align: center;
+            height: .35rem;
+            line-height: .35rem;
+            display: none;
+            img {
+                width: .16rem;
+                height: .16rem;
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+            }
+        }
+        .up {
+            transform: rotate(360deg) !important;
+            -webkit-transform: rotate(360deg) !important;
+        }
+        .foot {
+            text-align: center;
+            height: .35rem;
+            line-height: .35rem;
+            display: none;
+            img {
+                width: .16rem;
+                height: .16rem;
+                display: inline-block;
+                /*transform: rotate(0deg);*/
+                /*-webkit-transform: rotate(0deg);*/
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+            }
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
+        //内容部分
+        .banner{
+            height: 2.0rem;
+            #banner-swiper{
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        nav{
+            height: 1.2rem;
+            @include flex-direction(column);
+            ul{
+                width: 100%!important;
+                @include flex();
+                @include flexbox();
+                li{
+                    @include flex();
+                    @include flexbox();
+                    line-height: .6rem;
+                    color: #000;
+                    b{
+                        @include flex();
+                        font-weight: 500;
+                        text-align: center;
+                        font-size: .12rem;
+                    }
+                    i{
+                        @include flex();
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: .24rem;
+                    }
+                }
+            }
+        }
+        .list{
+            @include flex();
+            width: 100%!important;
+            .tab{
+                @include flexbox();
+                @include justify-content(center);
+                height: .5rem;
+                ul{
+                    @include flexbox();
+                    width: 1.5rem;
+                    height: 100%;
+                    li{
+                        @include flex();
+                        text-align: center;
+                        line-height: .5rem;
+                        font-weight: 500;
+                        font-size: .16rem;
+                        color: #9b9b9b;
+                    }
+                    .active{
+                        @include border(0 0 1px 0,#000,solid);
+                        color: #000;
+                    }
+                }
+            }
+            .goods{
+                @extend %goods;
+            }
+        }
+    } 
+}

@@ -1,0 +1,44 @@
+
+.m-index{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    #content{
+        @include flex();
+        width: 100%;
+        position: relative;
+    }
+    footer{
+        height: .5rem;
+        background: #000;
+        ul{
+            @include flexbox();
+            height: 100%;
+           
+            li{
+                text-align: center;
+                @include flex();
+                
+                i{
+                    display: block;
+                    width: 100%;
+                    font-size: .20rem;
+                    color: rgba(255,255,255,.5);
+                }
+                b{
+                    display: block;
+                    width: 100%;
+                    color: #fff;
+                    font-weight: normal;
+                    font-size: .12rem;
+                    color: rgba(255,255,255,.5);
+                }
+            }
+            .active i,
+            .active b{
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<div class="jrx-container">
+    <header>
+        <i action-type="goto.zone-1">约设计</i>
+        <span>空间</span>
+        <i><img src="/img/jrx-images/btn_scan.png"/></i>
+    </header>
+    <div class="swiper-container" id="zone-swiper" spa-widget="scroll">
+        <section id="jrx-scroll" >
+            <div class="jrx-box">
+                <ul id="zone-ul">
+                    <li ms-repeat-el="zonelist">
+                        <img class="thu" ms-src="'http://'+el.thumb"/>
+                        <p ms-text="el.name"></p>
+                        <div class="jrx-zan">
+                            <i><img src="/img/jrx-images/jrx-love1.png"/></i>
+                            <span ms-text="el.favs_count">11</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </div>
+</div>

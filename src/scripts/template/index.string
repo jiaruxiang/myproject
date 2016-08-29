@@ -1,0 +1,19 @@
+<div class="m-index">
+	<div id="content"></div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch" data-name="home">
+				<i class="yo-ico">&#xe646</i>
+				<b>匠铺</b>
+			</li>
+			<li action-type="switch" data-name="zone">
+				<i class="yo-ico">&#xe607</i>
+				<b>空间</b>
+			</li>
+			<li action-type="switch" data-name="mine">
+				<i class="yo-ico">&#xe603</i>
+				<b>我的</b>
+			</li>
+		</ul>
+	</footer>
+</div>

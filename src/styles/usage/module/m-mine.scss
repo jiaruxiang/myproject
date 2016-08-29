@@ -1,0 +1,138 @@
+
+
+.p-mine{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column); 
+    header{
+       width:100%;
+       height:.5rem; 
+       background:#000;
+       @include flexbox();
+       @include align-items(center);
+        i:first-child,
+        i:last-child{
+          height:.44rem; 
+          display: block;
+          width:.76rem;
+          padding:0 .16rem;
+          img{
+              width:100%;
+          }
+        }
+
+        span{
+            color:#fff;
+            @include flex();
+            text-align: center;
+            font-size: .14rem;
+        }
+    }
+    article{
+         width:100%;
+          height:1.16rem;
+          @include flexbox();
+          @include flex-direction(column); 
+          @include justify-content(center);
+          @include align-items(center);
+          background:#000;
+          i,b{
+            display: block;  
+          }
+          i{
+              width:.5rem;
+              height:.5rem;
+              margin-bottom: 0.07rem;
+              img{
+                  width:100%;
+                  @include border(0, #d9d9d9, solid, 50%);  
+              }
+          }
+          b{
+             color:#9b9b9b;
+             font-size: .14rem;
+             font-weight: normal;
+          }
+          
+      }
+      nav{
+           width:100%;
+           height:.6rem;
+           background:#000;
+           @include flexbox();
+           @include flex-direction(column);
+           @include justify-content(center); 
+           ul{
+                @include flexbox();
+                @include justify-content(space-around);
+           }
+           li{
+              @include flexbox(); 
+              @include flex-direction(column); 
+              color:#fff;
+              text-align: center;
+              line-height: .2rem;
+              color:#9b9b9b;
+              i,span{
+                display: block;  
+              }
+              i{
+                font-size: .12rem; 
+                font-weight: normal; 
+              }
+              span{
+                 font-size: .16rem; 
+                  
+              }
+           } 
+        }
+      
+    section{
+        @include flex();
+        background:#f0f0f0;
+        width:100%;
+        overflow: hidden;
+      
+        ul{
+            height:100%;
+             @include flexbox();
+             @include flex-direction(column);
+             
+             li{
+                 @include flex();
+                 height:.44rem;
+                 width:100%;
+                 @include flexbox();
+                 background:#fff;
+                  i,span{
+                      display: block;
+                  }
+                  i{
+                      height:.44rem;
+                     width:.44rem;
+                     img{
+                          width:100%;
+                      }
+                  }
+                  span{
+                      @include flex();
+                      line-height:.44rem;
+                      @include border(0 0 1px 0, #bababa);
+                  }
+              }
+              & .aside_bot{
+                  margin-bottom: .22rem;
+                 span{
+                   @include border(0 0 0 0, #bababa);  
+                 }
+             }
+         }
+    }
+    footer{
+       width:100%;
+       height:.5rem; 
+       background:#000; 
+    }
+     
+}

@@ -1,0 +1,39 @@
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+//定义字体图标
+@font-face {
+  font-family: yofont;
+  src: url("/img/iconfont/iconfont.woff") format("woff"), url("/img/iconfont/iconfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/img/iconfont/iconfont-header.woff") format("woff"), url("/img/iconfont/iconfont-header.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/img/iconfont/iconfont-nav.woff") format("woff"), url("/img/iconfont/iconfont-nav.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/img/iconfont/iconfont-goods.woff") format("woff"), url("/img/iconfont/iconfont-goods.ttf") format("truetype");
+
+}
+

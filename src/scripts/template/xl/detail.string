@@ -1,0 +1,76 @@
+<div class="p-shop">
+	<header>
+		<i class="yo-ico" action-type="back">&#xe604</i>
+		<span>商品详情</span>
+		<i>客服</i>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+		<div class="shopImg"><img ms-src="imgurl"/></div>
+		<aside>
+			<div class="titl">
+				<h3>{{title}}</h3>
+				<h6>
+					<i class="yo-ico">&#xe7cf</i>
+					<i class="yo-ico">&#xe69e</i>
+				</h6>
+			</div>
+			<div>
+				<i class="yo-ico">&#xe626</i>
+			</div>
+			<div>
+				<i class="yo-ico">&#xe618</i><span>886.00</span>
+			</div>
+			<div>
+				<i class="yo-ico">&#xe612</i><span>包邮</span>
+				<i class="yo-ico">&#xe612</i><span>15天无理由退货</span>
+			</div>
+			<div>
+				<span>设计品牌：<span>集物设计</span></span><i class="yo-ico">&#xe600</i>
+			</div>
+			<p>
+				#<span>{{title}}</span># 触感细腻，黑润却不暗淡，仿若布满星辰的黑夜一样泛着光。<br/><br/>
+ 
+ 
+				采用陶泥手工拉坯制作，拉坯时留下很多痕迹使其更显自然。内附91孔球孔，即便是冲泡大叶茶，也能保证出水流畅、断水干脆。高温烧造绝对不含任何重金属元素，可以放心地与家人朋友共享品茶时光。
+			</p>
+		</aside>
+		<div class="miao">
+			<span class="spanAct">描述</span>
+			<span>评论</span>
+		</div>
+		<div class="swiper-container" id="shop-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<article>
+						
+						<div spa-widget="scroll">
+							<div>
+								<div class="referral">
+									<i>材质:<span>陶</span></i>
+									<i>尺寸:<span>宽140mm、高120mm</span></i>
+								</div>
+								<ul class="referImg" >
+									<li><img ms-src="imgurl" /> </li>
+									<li><img ms-src="imgurl" /> </li>
+									<li><img ms-src="imgurl" /> </li>
+									<li><img ms-src="imgurl" /> </li>
+								</ul>
+							</div>
+						</div>
+				</article>
+				</div>
+				<div class="swiper-slide appraise">
+						暂无评价
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<i class="yo-ico">&#xe615</i>
+		<span>加入购物车</span>
+		<span>直接购买</span>
+	</footer>
+	
+</div>

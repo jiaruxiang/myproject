@@ -1,0 +1,95 @@
+<div id="home">
+	<header>
+		<i class="yo-ico" action-type="goCart">&#xe615</i>
+		<span>匠铺</span>
+		<i class="yo-ico">&#xe649</i>
+	</header>
+	<div spa-widget="scroll" data-scroll-id="myScroll" id="home-scroll">
+		<div>
+			<div class="head">
+	            <img src="../../../img/xl/arrow.png"/>
+	            <span>下拉刷新...</span>
+	        </div>
+			<section class="banner">
+				<div class="swiper-container" id="banner-swiper">
+				  	<div class="swiper-wrapper">
+				    	<div class="swiper-slide" ms-repeat-el="banner"  action-type="goDetail"  ms-attr-data-imgurl="el.thumb" ms-attr-data-title="el.title">
+				    		<img ms-src="el.imgurl"/>
+				    	</div>
+				  	</div>
+				  	<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<nav>
+				<ul>
+					<li action-type="goList" ms-attr-data-id="1"><i class="yo-ico">&#xe670</i>|<b>柜架</b></li>
+					<li action-type="goList" ms-attr-data-id="2"><i class="yo-ico">&#xe653</i>|<b>座椅</b></li>
+					<li action-type="goList" ms-attr-data-id="3"><i class="yo-ico">&#xe62f</i>|<b>桌几</b></li>
+					<li action-type="goList" ms-attr-data-id="4"><i class="yo-ico">&#xe6dc</i>|<b>床</b></li>
+				</ul>
+				<ul>
+					<li action-type="goList" ms-attr-data-id="5"><i class="yo-ico">&#xe63c</i>|<b>沙发</b></li>
+					<li action-type="goList" ms-attr-data-id="6"><i class="yo-ico">&#xe603</i>|<b>灯具</b></li>
+					<li action-type="goList" ms-attr-data-id="7"><i class="yo-ico">&#xe623</i>|<b>装饰</b></li>
+					<li action-type="goList" ms-attr-data-id="8"><i class="yo-ico">&#x353f</i>|<b>器皿</b></li>
+				</ul>
+			</nav>
+			<section class="list">
+				<div class="tab">
+					<ul>
+						<li class="active">独立设计</li>
+						<li>匠物精选</li>
+					</ul>
+				</div>
+				<div class="swiper-container" id="goods-swiper">
+				  	<div class="swiper-wrapper">
+				    	<div class="swiper-slide">
+				    		<ul class="goods">
+								<li ms-repeat-el="duli" action-type="goDetail" ms-attr-data-imgurl="el.thumb" ms-attr-data-title="el.title">
+									<img ms-src="el.thumb" alt="" />
+									<div class="info">
+										<span class="word" ms-text="el.title"></span>
+										<ul class="collect">
+											<li>
+												<i class="yo-ico">&#xe614</i>
+												<b ms-text="el.view_count"></b>
+											</li>
+											<li>
+												<i class="yo-ico">&#xe60d</i>
+												<b ms-text="el.favs_count"></b>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+				    	</div>
+				    	<div class="swiper-slide">
+				    		<ul class="goods">
+								<li ms-repeat-el="duli"  action-type="goDetail"  ms-attr-data-imgurl="el.thumb" ms-attr-data-title="el.title">
+									<img ms-src="el.thumb" alt="" />
+									<div class="info">
+										<span class="word" ms-text="el.title"></span>
+										<ul class="collect">
+											<li>
+												<i class="yo-ico">&#xe614</i>
+												<b ms-text="el.view_count"></b>
+											</li>
+											<li>
+												<i class="yo-ico">&#xe60d</i>
+												<b ms-text="el.favs_count"></b>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+				    	</div>
+				  	</div>
+				</div>
+			</section>
+			<div class="foot">
+	            <img src="../../../img/xl/arrow.png"/>
+	            <span>上拉加载更多...</span>
+	        </div>
+		</div>
+	</div>
+</div>

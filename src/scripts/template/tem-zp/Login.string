@@ -1,0 +1,35 @@
+<div class="p-Login">
+	
+	<header>
+		<i><img src="../../../../img/zp/ic_login_logo.png"></i>
+	</header>
+	<section>
+		<form>
+			<div class="sec-bot">
+				<input id="user" class="fous" type="text" />
+				<span>手机号</span>
+			</div>
+			<div class="sec-bot">
+				<input id="pass" class="fous" type="password"/>
+				<span>密码</span>
+			</div>
+			<div class="sec-bor0">
+				<p action-type="goto.register">新用户注册</p>
+				<button>忘记密码？</button>
+			</div>
+			<div class="sec-sub">
+				
+				<input id="secSub" type="submit" value="登录"/>
+				<input type="button" value="微信登录"/>
+			</div>
+		</form>
+	</section>
+	<footer id="footer">
+		<div class="yo-tip">
+   			 
+ 			<span class="arrow arrow-right"></span>
+			</div>
+		<i action-type="back"><img src="../../../../img/zp/ic_cancel.png"></i>
+	</footer>
+	
+</div>

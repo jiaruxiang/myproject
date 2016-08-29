@@ -1,0 +1,40 @@
+<div class="p-shop">
+	<header>
+		<i class="yo-ico">&#xe604</i>
+		<span>商品详情</span>
+		<i>客服</i>
+	</header>
+	<section>
+		<div class="shopImg"><img src="../../../../img/zp/hu.jpg"/></div>
+		<aside>
+			<div class="titl">
+				<h3>如漆壶</h3>
+				<p>
+					<i class="yo-ico">&#xe7cf</i>
+					<i class="yo-ico">&#xe69e</i>
+				</p>
+			</div>
+			<div>
+				<i class="yo-ico">&#xe626</i>
+			</div>
+		<!--	<--<div>
+				<i class="yo-ico">&#xe618</i><span>886.00</span>
+			</div>
+			<div>
+				<i class="yo-ico">&#xe618</i><span>包邮</span>
+				<i class="yo-ico">&#xe618</i><span>15天无理由</span>
+			</div>
+			<div>
+				<span>设计品牌：<span>集物设计</span></span><i class="yo-ico">&#xe600</i>
+			</div>
+			<p>
+				#如漆壶# 触感细腻，黑润却不暗淡，仿若布满星辰的黑夜一样泛着光。
+
+				采用陶泥手工拉坯制作，拉坯时留下很多痕迹使其更显自然。内附91孔球孔，即便是冲泡大叶茶，也能保证出水流畅、断水干脆。高温烧造绝对不含任何重金属元素，可以放心地与家人朋友共享品茶时光。
+			</p>-->
+			
+		</aside>
+	</section>
+	<footer></footer>
+	
+</div>

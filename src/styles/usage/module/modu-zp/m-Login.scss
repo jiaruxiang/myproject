@@ -1,0 +1,86 @@
+.p-Login{
+    @include Wheader()
+    header,footer{
+        height:1.5rem;
+        width:100%;
+        @include cenFlex();
+        i{
+            display: block;
+            width:1.5rem;
+            height:1.5rem;
+            img{
+            width:100%;
+            
+            }
+        }
+    }
+    section{
+      @include flex();
+      width:100%;
+      @include cenFlex();
+        form{
+        @include coForm()
+          .sec-bot{
+             color:#9b9b9b;
+             font-size: .14rem;
+             @include border(0 0 1px 0,#fff); 
+             height:.6rem;
+             
+             input{
+                  z-index:9999;
+                   height:.6rem;
+                  position: absolute;
+                  line-height: .9rem;
+              } 
+          }
+          .sec-bor0{
+              @include flexbox();
+              @include flex-direction();
+              @include justify-content(space-between);
+              font-size: .12rem;
+              button,p{
+                display: block;
+                background: transparent; 
+                border:0;
+              }
+              
+          }
+          .sec-sub{
+              margin-top:.18rem;
+              font-size: .14rem;
+             & input:first-child{
+                 height:.36rem;
+                 background:#fff;
+                 color:#000;
+                 
+             } 
+              & input:last-child{
+                  height:.36rem;
+                  margin-top:.14rem;
+                  background:#35b229;
+             } 
+          }
+           .botChang{
+            bottom:.3rem;
+        }
+        }
+    }
+   footer{
+       @include lFooter(1.3rem);
+      position: relative;
+       .yo-tip {
+            @include _tooltip;
+            background-color: rgba(250, 250, 250, 0.2);
+            position: absolute;
+            font-size:.12rem;
+            padding: 0.06rem 0.08rem;
+            bottom:-.4rem;
+            left: 50%;
+             @include transform(translate(-50%, 0));  
+           }
+           .yo-tip3{
+             bottom:1rem;  
+           }
+   
+   }
+}

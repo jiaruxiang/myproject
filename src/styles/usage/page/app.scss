@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "../core/reset";
+@import "../layout/m-layout";
+@import "../layout/p-layout";
+@import "../core/swiper-3.3.1.min.css";
+@import "../module/m-index.scss";
+//list视图
+@import "../module/xl/list.scss";
+//detail视图
+@import "../module/xl/detail.scss";
+//cart视图
+@import "../module/xl/cart.scss";
+//zone子视图
+@import "../module/jrx-sass/m-zone-1.scss";
+//view 视图
+@import "../module/m-home.scss";
+@import "../module/m-zone.scss";
+@import "../module/m-mine.scss";
+
+@import "../module/modu-zp/m-Login.scss";
+@import "../module/modu-zp/m-register.scss";
+@import "../module/modu-zp/m-shop.scss";

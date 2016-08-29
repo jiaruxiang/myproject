@@ -1,0 +1,111 @@
+.p-register{
+   @include Wheader()
+     header,footer{
+        height:1.5rem;
+        width:100%;
+         @include cenFlex();
+        i{
+            display: block;
+            width:1.5rem;
+            height:1.5rem;
+            img{
+            width:100%;
+            }
+        }
+    }
+    section{
+      @include flex();
+      width:100%;
+      @include cenFlex();
+        form{
+            height:100%;
+            @include coForm();
+            
+              .sec-bot{
+                 color:#9b9b9b;
+                 font-size: .14rem;
+                 @include border(0 0 1px 0,#9a9a9a);  
+                 height:.6rem;
+                 input{
+                     height:.6rem;
+                     position: absolute;
+                     z-index: 9999;
+                     line-height: .9rem;
+                 }
+                  }
+              .sec-bor0{
+                  margin-top:.2rem;
+                  @include flexbox();
+                  @include flex-direction();
+                  @include justify-content(space-between);
+                  font-size: .12rem;
+                  & input{
+                     width:1.6rem;
+                     position: relative;
+                     z-index: 9999;
+                     border-bottom: 1px solid #9a9a9a;
+                     line-height: .6rem; 
+                  }
+                  b{
+                    display: block;
+                    line-height: .7rem;
+                    min-width: 1.2rem;
+                  }
+                  .changeB{
+                     color:red;
+                    font-size:.14rem;
+                    text-align:center;
+                    font-style: italic;
+                  }
+                }
+          .sec-sub{
+              margin-top:.2rem;
+              height:1.2rem;
+              @include flexbox();
+              @include flex-direction(column);
+              text-align: center;
+                input{
+                 width:100%;
+                 height:.36rem;
+                 background:#fff;
+                 color:#000;
+             } 
+              i{
+                 font-size: .12rem;
+                 display: block;
+                 margin-bottom: .06rem; 
+                 color:#9b9b9b;
+                 b{
+                   color:#fff;
+                   padding-left:.1rem  
+                 }
+              }
+              i:last-child{
+                  margin-top:.12rem;
+                  color:#fff;
+              }
+          }
+        }
+        .botChang{
+            bottom:.3rem;
+        }
+    }
+     footer{
+         position: relative;
+        @include lFooter(1.1rem);
+          .yo-tip {
+            @include _tooltip;
+            background-color: rgba(250, 250, 250, 0.2);
+            position: absolute;
+            font-size:.12rem;
+            padding: 0.06rem 0.08rem;
+             bottom:-.4rem;
+             left: 50%;
+             @include transform(translate(-50%, 0));  
+           }
+           .yo-tip2{
+             bottom:1rem;  
+           }
+    }
+   
+}

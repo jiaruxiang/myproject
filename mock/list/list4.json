@@ -1,0 +1,12 @@
+{
+	"name":"床",
+	"products": [{
+		"id": 48,
+		"title": "云上的床",
+		"thumb": "http://assets.jiangwoo.com/uploads%2F67feffe709a0af9923313fb0e106b83f-500x500.jpg",
+		"favs_count": 11,
+		"view_count": 937,
+		"source": "external",
+		"display_tag": "none"
+	}]
+}

@@ -1,0 +1,59 @@
+@mixin cenFlex(){
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
+}
+@mixin Wheader(){
+    width:100%;
+    height:100%;
+    background:#000;
+    @include flexbox();
+    @include flex-direction(column);
+}
+@mixin lFooter($footH:value){
+    height:$footH;
+       i{
+            width:.30rem;
+             height:.30rem;
+            img{
+            width:100%;
+            }
+        }
+}
+@mixin coForm(){
+    display: block;
+       @include flexbox();
+       @include flex-direction(column);
+       height: 100%;
+       width:80%; 
+    div{
+          width:100%; 
+          height:.44rem;
+          color:#fff;
+          position: relative;
+            input{
+            display: block;
+            width:100%; 
+            height:.44rem;
+            background:transparent;
+            border:0;
+        }
+        span{
+          display: block;
+          position: absolute;
+          bottom:0;
+          left:0;  
+        }
+      }
+}
+//定义字体图标
+@font-face {
+  font-family: yofont;
+  src: url("/img/p-iconfont/iconfont-shop.woff") format("woff"), url("/img/p-iconfont/iconfont-shop.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/img/p-iconfont/iconfont-she.woff") format("woff"), url("/img/p-iconfont/iconfont-she.ttf") format("truetype");
+}

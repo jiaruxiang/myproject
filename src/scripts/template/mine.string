@@ -1,0 +1,81 @@
+
+<div class="p-mine">
+	<header>
+		<i><img src="../../../img/zp/btn_shopping_cart.png"></i>
+		<span>我的</span>
+		<i><img src="../../../img/zp/icon_setting.png"></i>
+	</header>
+	<article>
+			<i><img src="../../../img/zp/ic_default_portrait.png"></i>
+			<b action-type="goto.Login">未登陆</b>
+	</article>
+	<nav>
+		<ul>
+			<li>
+				<span>0</span>
+				<i>待付款</i>
+			</li>
+			<li>
+				<span>0</span>
+				<i>待收货</i>
+			</li>
+			<li>
+				<span>0</span>
+				<i>已完成</i>
+			</li>
+		</ul>
+
+		</nav>
+
+
+	<section spa-widget="scroll">
+		<ul>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_all_orders.png"></i>
+				<span>商品订单</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_message.png"></i>
+				<span>我的消息</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_address.png"></i>
+				<span>收货地址</span>
+			</li>
+			<li class="aside_bot">
+				<i><img src="../../../img/zp/btn_frag_user_coupons.png"></i>
+				<span>优惠劵</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_all_orders.png"></i>
+				<span>空间订单</span>
+			</li>
+			<li class="aside_bot">
+				<i><img src="../../../img/zp/btn_frag_space_order.png"></i>
+				<span>喜欢的空间</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_space_like.png"></i>
+				<span>喜欢的商品</span>
+			</li>
+			<li class="aside_bot">
+				<i><img src="../../../img/zp/btn_frag_user_customer_service.png"></i>
+				<span>联系客服</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_invite_friends.png"></i>
+				<span>邀请好友</span>
+			</li>
+			<li>
+				<i><img src="../../../img/zp/btn_frag_user_designers_in.png"></i>
+				<span>设计师入住</span>
+			</li>
+			
+		</ul>
+
+	</section>
+	<!--<footer></footer>-->
+</div>
+
+
+
